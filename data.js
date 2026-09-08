@@ -1,31 +1,38 @@
 window.REPORT = {
-  lastUpdate: "Ago/2026",
+  lastUpdate: "Set/2026",
 
   justTrackIt: [
     {
       accent: true,
-      title: "SU27 W31 (Bottoms Up) - units",
-      text: "TOTAL: 7.17M | L4L 3.18M pcs  IMP 4M",
+      title: "NIKE SU27 BKGS 01.09 (ex-distro) - units",
+      text: "TOTAL: 7.2M | L4L 3.03M  IMP 4.2M",
       check: true
     },
     {
-      date: "31.Ago a 04.Set ",
+      accent: true,
+      title: "ZELUS SU27 BKGS 01.09 (ex-distro) - units",
+      text: "TOTAL: 157.6K | L4L 54K  IMP 103.7K",
+      check: true
+    },
+    {
+      accent: true,
+      title: "JR286 SU27 BKGS 01.09 (ex-distro) - units",
+      text: "TOTAL: 53.6K",
+      check: true
+    },
+    {
+      date: "08.Set a 11.Set ",
       text: "Bookings Review",
       warn: true
     },
     {
-      date: "01.Set",
-      text: "1st bookings extract - ex Distro",
+      date: "08.Set",
+      text: "2nd bookings extract - FINAL",
       warn: true
     },
     {
-      date: "03.Set",
-      text: "HO27 ZELUS Top Down Plan",
-      warn: true
-    },
-    {
-      date: "03.Set",
-      text: "Early Buys Window",
+      date: "11.Set",
+      text: "Alinhamento Liderança - BUYS SU27",
       warn: true
     }
       ],
@@ -39,26 +46,11 @@ window.REPORT = {
     { side: "bottom", date: "02/Set", iso: "2026-09-02", color: "#F472B6", boxType: "light", title: "Booking",      subtitle: "Review (Supply)",    tooltip: "Supply analisa, prepara e disponibiliza a base para Merch" },
     { side: "top",    date: "07/Set", iso: "2026-09-07", color: "#A855F7", boxType: "light", title: "Fechamento", subtitle: "Final",           tooltip: "Encerramento de colocação de pedidos da coleção" },
     { side: "bottom", date: "08/Set", iso: "2026-09-08", color: "#2DD4BF", boxType: "light", title: "Bookings",    subtitle: "Finais (MPO)",      tooltip: "MPO gera os bookings finais, que serão a base de compra oficial" },
-    { side: "top",    date: "10/Set", iso: "2026-09-10", color: "#F87171", boxType: "light", title: "Alinhamento", subtitle: "Liderança",      tooltip: "Reunião de alinhamento com a liderança para fins de auditoria e transparência" },
+    { side: "top",    date: "10/Set", iso: "2026-09-11", color: "#F87171", boxType: "light", title: "Alinhamento", subtitle: "Liderança",      tooltip: "Reunião de alinhamento com a liderança para fins de auditoria e transparência" },
     { side: "bottom", date: "16/Set", iso: "2026-09-16", color: "#EAB308", boxType: "light", title: "POs Deadline", subtitle: "(Upload SAP)",  tooltip: "Envio via EDI dos pedidos para a Nike" }
   ],
 
   datesGates: [
-        {
-      side: "right",
-      label: "AGO.24",
-      iso: "2026-08-24",
-      sections: [
-        {
-          tag: { text: "INVENTORY", bg: "#6d28d9", fg: "#ffffff" },
-          items: ["24.8 Simulador Rev2","28.08 IBP Call"]
-        },
-        {
-          tag: { text: "SU27", bg: "#E97132", fg: "#ffffff" },
-          items: ["26.8 BUYS Allocations/NBA","27.8 W31 Bottoms Up","28.8 SKIMS BUY"]
-        }
-      ]
-    },
     {
       side: "left",
       label: "AGO.31",
@@ -85,12 +77,8 @@ window.REPORT = {
         },
         {
           tag: { text: "SU27", bg: "#E97132", fg: "#ffffff" },
-          items: ["08.9 Bookings FINAIS","10.9 Alinhamento BKGS Liderança"]
+          items: ["08.9 Bookings FINAIS","11.9 Alinhamento BKGS Liderança"]
         },
-        {
-          tag: { text: "FA27", bg: "#eab308", fg: "#111111" },
-          items: ["11.9 OTB REV 1 FA27"]
-        }
       ]
     },
     {
@@ -108,7 +96,7 @@ window.REPORT = {
         },
         {
           tag: { text: "FA27", bg: "#eab308", fg: "#111111" },
-          items: ["17.9 W41 TOP DOWN PLAN"]
+          items: ["17.9 W41 TOP DOWN PLAN", "11.9 OTB REV 1 FA27"]
         }
       ]
     },
